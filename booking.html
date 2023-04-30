@@ -25,17 +25,23 @@
 </header>
 <div class="content">
   <div class="centered">
-    <h2>About us</h2>
-    <p>Welcome to furry friends. A dog care centre based in mount Merrion here you can book an appointment online and have a look at our available dogs through our gallery page.
-      
-      if you have any questions please have a look at our contact page where we will get in touch with you.
-      
-      Thanks</p>
+	  <h2>Booking</h2>
+    
+	  <div class="form-container">
+		<form action="booking.html" method="post">
+			<label for="dog breed">Dog</label>
+			<input type="dog breed" id="name" name="name" placeholder="Enter name of dog breed">
+			
+			<label for="age">Age</label>
+			<input type="age" id="age" name="age" placeholder="Age">
+			
+			<label for="message">message</label>
+			<textarea type="message" id="message" email="message" placeholder="Enter your message"></textarea>
+			
+			<button class="book-now">Book Now</button>
+		</form>
+	</div>
 	  
-	   <p>Visit us in Mount Merrion</p>
-    <div class="location"><img src="Images/map.png" class="map-image" />
-		</div>
-  </div>
-</div>
+	  
 </body>
 </html>

@@ -9,7 +9,7 @@ header {
 h2 {
   font-size: 48px;
   text-align: center;
-  font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif"
+  font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
 }
 .logo {
   padding: 40px;
@@ -108,3 +108,62 @@ li {
   justify-content: center;
   align-items: center;
 }
+
+
+
+.form-container {
+	width: 100%;
+	max-width: 500px;
+	margin: 0 auto;
+	padding: 20px;
+	background-color: purple;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	text-decoration-color: aliceblue;
+	
+}
+
+form {
+	display: flex;
+	flex-direction: column
+}
+
+label {
+	margin-bottom: 5px;
+	font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+	margin-bottom: 15px;
+	padding: 8px;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	font-size: 14px;
+	
+}
+
+textarea {
+	resize: none;
+	min-height: 150px;
+	
+}
+	
+button[type="book-now"] {
+	cursor: pointer;
+	background-color: aliceblue;
+	border: none;
+	color: #fff;
+	padding: 10px;
+	font-size: 16px;
+	border-radius: 3px;
+	transition: background-color 0.3s
+}
+
+button[type="submit"]:hover {
+	background-color: hotpink;
+}
+
+
+
